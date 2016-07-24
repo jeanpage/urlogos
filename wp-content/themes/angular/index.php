@@ -14,7 +14,7 @@
 
 	<div> 		
 		<input type="text" ng-model="name">
-		<p>Hello, {{name}}!</p>
+		<p>What's my, {{name}}!</p>
 	</div>
 	
 
