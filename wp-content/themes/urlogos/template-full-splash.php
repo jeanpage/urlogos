@@ -1,5 +1,5 @@
 <?php
-	/*  Template Name: Full Width  */
+	/*  Template Name: Splash  */
 	get_header();
 	$container_classes = 'single';
 ?>
