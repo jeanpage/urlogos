@@ -34,6 +34,7 @@
   min-width: calc(33.33% / 2);
 }
 .green{
+   background-image:url('http://res.cloudinary.com/urlogos/image/upload/PIL_7960.jpg');
    background-color: #faaca 8 ;
 }
 .green img{
