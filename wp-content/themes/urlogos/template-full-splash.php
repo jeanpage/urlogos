@@ -4,7 +4,7 @@
 	$container_classes = 'single';?>
 <section>
 <div class="column green">
-  <img src="http://res.cloudinary.com/urlogos/image/upload/PIL_7960.jpg">
+  <div class="bg-img">
 </div>
 </section>  
 <?php get_footer();?>
