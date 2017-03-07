@@ -35,16 +35,15 @@
 }
 /*.green{
    background-image:url('http://res.cloudinary.com/urlogos/image/upload/PIL_7960.jpg');
-*/   
    background-color: #faaca 8 ;
-}
+}*/   
 /*.green img{
   filter: grayscale(100%) contrast(1);
    mix-blend-mode: darken;
    max-width:100%;
    height:100vh !important;
- }
- */
+ } */
+
 .bg-img{
   width: 100%;
   height: 100%;

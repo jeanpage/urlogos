@@ -5,7 +5,7 @@
 <section>
 <div class="column green">
 <!--adding background image to css -->
-  <div class="bg-img">
+  <div class="bg-img"></div>
 
 </div>
 </section>  
