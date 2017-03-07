@@ -40,7 +40,9 @@
   filter: grayscale(100%) contrast(1);
    mix-blend-mode: darken;
    max-width:100%;
-   height:auto;
+   height:100vh;
+
+
 }
 .column::after{
   content: '';
