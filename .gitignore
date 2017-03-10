@@ -97,3 +97,5 @@ wp-content/mysql.sql
 *.asf
 *.wmv
 *.avi
+wp-content/themes/urlogos/urlogos.sublime-workspace
+wp-content/themes/urlogos/urlogos.sublime-project
