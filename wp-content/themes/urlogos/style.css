@@ -26,19 +26,47 @@
 }
 
 h1.splashType{
-  z-index: 12;
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    font-size: 6em;
-    line-height: 200px;
-    font-style: italic;
+z-index: 12;
+width: 100%;
+position: absolute;
+font-style: italic;
+/*  MOBILE FIRST */
+    margin: 0vh 4vw;
+    font-size: 16vw;
+    line-height: 38vw;
 /*  GRADIENT EXPERIMENTS */
     background: linear-gradient(
     145deg, rgba(19, 80, 88, .2), 
     rgba(255, 110, 127, 1));
+    -moz-background-clip: text;  
   -webkit-background-clip: text;
+  -moz-text-fill-color: transparent;  
   -webkit-text-fill-color: transparent;
+    color:#fff;
+}
+
+@media (min-width: 768px){
+h1.splashType {
+    margin: 0vh 10vw;
+    font-size: 9vw;
+    line-height: 18vw;
+  }    
+}
+
+@media (min-width: 1024px){
+h1.splashType {
+    margin: 0vh 10vw;
+    font-size: 8vw;
+    line-height: 16vw;
+  }     
+}
+
+@media (min-width: 1440px){
+h1.splashType {
+    margin: 0vh 9vw;
+    font-size: 7vw;
+    line-height: 16vw;
+  }     
 }
 
 .column{
