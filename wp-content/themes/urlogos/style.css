@@ -63,10 +63,14 @@ h1.splashType {
 
 @media (min-width: 1440px){
 h1.splashType {
-    margin: 0vh 9vw;
+    margin: 0vh 8vw;
     font-size: 7vw;
-    line-height: 16vw;
+    line-height: 17vw;
   }     
+}
+
+H2.sidebar-title{
+  display: none;
 }
 
 .column{
