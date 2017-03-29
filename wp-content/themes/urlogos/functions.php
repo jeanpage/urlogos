@@ -20,3 +20,5 @@ function sdt_remove_ver_css_js( $src ) {
 		$src = remove_query_arg( 'ver', $src );
 	return $src;
 }
+
+/* Adding a simple comments */
