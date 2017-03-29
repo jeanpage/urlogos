@@ -1,5 +1,6 @@
 *~
 .DS_Store
+.htaccess
 .svn
 .cvs
 *.bak
@@ -98,6 +99,5 @@ wp-content/mysql.sql
 *.asf
 *.wmv
 *.avi
-*.htaccess
 wp-content/themes/urlogos/urlogos.sublime-workspace
 wp-content/themes/urlogos/urlogos.sublime-project

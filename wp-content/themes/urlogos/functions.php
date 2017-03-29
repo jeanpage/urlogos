@@ -1,19 +1,23 @@
 <?php 
-
+// Child Styles	
 add_action( 	'wp_enqueue_scripts', 'urlogos_enqueue_styles' );
+// Remove WP Version From Styles	
+add_filter( 'style_loader_src', 'sdt_remove_ver_css_js', 9999 );
+// Remove WP Version From Scripts
+add_filter( 'script_loader_src', 'sdt_remove_ver_css_js', 9999 );
 
+
+// Function to add child theme
 function urlogos_enqueue_styles() {
     $parent_style = 'parent-style'; 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), wp_get_theme()->get('false'));
+	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), false);
 	}
 
-if ( ! isset( $content_width ) ) {
-$content_width = 1200; }
 
-
-function my_portfolio_image_quality( $quality ) {
-    return 100;
+// Function to remove version numbers
+function sdt_remove_ver_css_js( $src ) {
+	if ( strpos( $src, 'ver=' ) )
+		$src = remove_query_arg( 'ver', $src );
+	return $src;
 }
-add_filter( 'jpeg_quality', 'my_portfolio_image_quality' );
-add_filter( 'wp_editor_set_quality', 'my_portfolio_image_quality' );
