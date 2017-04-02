@@ -24,8 +24,17 @@
 /* ADDING FOR SPLASH PAGE
 **************************/
 
+@font-face{
+  font-family: 'Playfair Display', serif;
+  src: local('Playfair Display'), url('//https://fonts.googleapis.com/css?family=Playfair+Display:400') format('truetype');
+
+}
+
 #blog-title{
   font-weight: bolder;
+}
+div#credit span{
+  display: none;
 }
 
 h1.splashType{
@@ -33,27 +42,30 @@ z-index: 12;
 width: 100%;
 pointer-events:none;
 position: absolute;
-font-style: italic;
 /*  MOBILE FIRST */
     margin: 0vh 4vw;
     font-size: 16vw;
-    line-height: 38vw;
-/*  GRADIENT EXPERIMENTS */
-    background: linear-gradient(
-    145deg, rgba(19, 80, 88, .2), 
-    rgba(255, 110, 127, 1));
-  -moz-background-clip: text;  
-  -webkit-background-clip: text;
-  -moz-text-fill-color: transparent;  
-  -webkit-text-fill-color: transparent;
-    color:#fff;
+    line-height: 48vw;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    /*  GRADIENT EXPERIMENTS */
+        background: linear-gradient( 145deg,
+        rgba(19, 80, 88, .2), 
+        rgba(255, 110, 127, 1));
+      -moz-background-clip: text;  
+      -webkit-background-clip: text;
+      -moz-text-fill-color: transparent;  
+      -webkit-text-fill-color: transparent;
+        color:#fff;
 }
 
 @media (min-width: 768px){
 h1.splashType {
     margin: 0vh 10vw;
     font-size: 9vw;
-    line-height: 18vw;
+    line-height: 16vw;
   }    
 }
 
@@ -61,7 +73,7 @@ h1.splashType {
 h1.splashType {
     margin: 0vh 10vw;
     font-size: 8vw;
-    line-height: 16vw;
+    line-height: 18vw;
   }     
 }
 
@@ -69,7 +81,7 @@ h1.splashType {
 h1.splashType {
     margin: 0vh 8vw;
     font-size: 7vw;
-    line-height: 17vw;
+    line-height: 18vw;
   }     
 }
 
