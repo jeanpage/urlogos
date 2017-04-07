@@ -134,7 +134,10 @@ H2.sidebar-title{
 /**************************
 FIX LIQUID THEME DEFAULTS
 **************************/
-#page-info{display:none !important}
+ul.slick-slider button.slick-prev,
+ul.slick-slider button.slick-next{
+  display:none !important
+}
 
 article.single iframe{max-width:100% !important}
 

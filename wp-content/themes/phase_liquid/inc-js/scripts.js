@@ -312,7 +312,7 @@ jQuery(document).ready(function($){
 			focusOnSelect:true,
 			prevArrow:"<button type='button' class='slick-prev'><i class='icon-left-open'></i></button>",
 			nextArrow:"<button type='button' class='slick-next'><i class='icon-right-open'></i></button>",
-			autoplay:true,
+			autoplay:false,
 	  		autoplaySpeed:4000,
 		}).addClass("loaded");
 		$posts_height = $("#posts").outerHeight();
