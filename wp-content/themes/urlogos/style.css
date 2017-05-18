@@ -131,6 +131,13 @@ H2.sidebar-title{
   mix-blend-mode: screen;
 }
 
+q {
+	font-size: 21px;
+	line-height: 40px;
+	color: #a4a4a4;	
+	margin: 25px 0px;
+}
+
 /**************************
 FIX LIQUID THEME DEFAULTS
 **************************/

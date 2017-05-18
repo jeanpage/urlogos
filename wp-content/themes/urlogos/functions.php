@@ -32,6 +32,6 @@ wp_enqueue_style( 'urlogos-google-fonts', 'https://fonts.googleapis.com/css?fami
 
 // Fun mods for slider
 // function my_script_mod() {
-//   wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array( 'jquery' ) );}
+// wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array( 'jquery' ) );}
 
 
