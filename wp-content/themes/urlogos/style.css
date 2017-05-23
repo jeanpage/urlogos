@@ -131,6 +131,24 @@ H2.sidebar-title{
   mix-blend-mode: screen;
 }
 
+/************************
+Navigation
+************************/
+a#blog-title{
+	visibility: hidden;
+    /* Rotate  */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+
+}
+a#blog-title::after {
+    content: "\2630";
+    margin-left: -10px;
+    font-size: 22px;
+    visibility: visible;
+}
+
 q {
 	font-size: 21px;
 	line-height: 40px;
