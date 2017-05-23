@@ -149,9 +149,9 @@ a#blog-title::after {
     visibility: visible;
 }
 
-ul#menu-menu-1 li a{
+ul#menu-menu-1 li{
 	font-family: sans-serif;
-	font-family: "Open-Sans";
+	font-family: 'Open Sans', sans-serif;
 }
 
 q {
