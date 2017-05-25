@@ -149,7 +149,8 @@ a#blog-title::after {
     visibility: visible;
 }
 
-ul#menu-menu-1 li{
+ul#menu-menu-1 li,
+#sidebar #slide #navigation ul li a{
 	font-family: sans-serif;
 	font-family: 'Open Sans', sans-serif;
 }
